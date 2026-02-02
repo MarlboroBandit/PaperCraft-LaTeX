@@ -2,7 +2,7 @@
 
 <div align="center">
     <br />
-    <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" alt="LaTeX Logo" width="120">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" alt="LaTeX Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/1920px-LaTeX_logo.svg.png" width="140">
     <h1>PaperCraft-LaTeX</h1>
     <p>
         <strong>Clean and academic-ready templates for uni. I use these templates for my submissions.</strong>
