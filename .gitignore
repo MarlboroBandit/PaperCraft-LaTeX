@@ -1,0 +1,5 @@
+*.aux
+*.log
+Prob*.tex
+Prob*.pdf
+Quick*

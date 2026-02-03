@@ -1,0 +1,107 @@
+\documentclass{problemset} 
+
+\begin{document}
+
+\makeheader
+    {Problem Set I}                   
+    {University Physics 1}                        
+    {February 3, 2026}                   
+    {RICHARDS ROE \\ JANE Q. PUBLIC} 
+
+\begin{problemblock}
+    {1}
+    {A sports car starts from rest and accelerates uniformly at $5.0 \, \text{m/s}^2$. 
+    Calculate the distance the car travels in the first 4.0 seconds.}
+    {$d = 40 \, \text{m}$}
+
+    We are given the following values:
+    \begin{itemize}
+        \item Initial velocity $v_0 = 0 \, \text{m/s}$
+        \item Acceleration $a = 5.0 \, \text{m/s}^2$
+        \item Time $t = 4.0 \, \text{s}$
+    \end{itemize}
+    
+    We use the kinematic equation for displacement:
+    \begin{align*}
+        d &= v_0 t + \frac{1}{2} a t^2 \\
+        d &= (0)(4.0) + \frac{1}{2} (5.0) (4.0)^2 \\
+        d &= 0 + 0.5 (5.0) (16) \\
+        d &= 40 \, \text{m}
+    \end{align*}
+\end{problemblock}
+
+\begin{problemblock}
+    {2}
+    {Vector $\vec{A}$ has a magnitude of 10 units pointing East. Vector $\vec{B}$ has a magnitude 
+    of 15 units at $60^\circ$ North of East. Find the magnitude of the resultant vector $\vec{R} = \vec{A} + \vec{B}$. 
+    Include a vector diagram.}
+    {$|\vec{R}| \approx 21.8 \, \text{units}$}
+
+    First, we resolve the vectors into components:
+    \begin{align*}
+        A_x &= 10, \quad A_y = 0 \\
+        B_x &= 15 \cos(60^\circ) = 7.5 \\
+        B_y &= 15 \sin(60^\circ) \approx 12.99
+    \end{align*}
+    
+    Summing the components:
+    \begin{align*}
+        R_x &= 10 + 7.5 = 17.5 \\
+        R_y &= 0 + 12.99 = 12.99
+    \end{align*}
+    
+    Calculating the magnitude:
+    \[ |\vec{R}| = \sqrt{(17.5)^2 + (12.99)^2} \approx 21.79 \]
+    
+    \textbf{Vector Diagram:}
+    \textit{(Diagram not accurate. Example use only.)}
+    \begin{figure}[H]
+        \begin{center}
+        \includegraphics[width=0.5\textwidth]{figures/vector_figure.png}
+        \caption{Example of captioned figure.}
+        \end{center}
+    \end{figure}
+
+\end{problemblock}
+
+\begin{problemblock}
+    {3}
+    {A crate of mass $m$ sits on the back of a flatbed truck as shown in the figure below. 
+    If the truck accelerates to the right at $a = 3 \, \text{m/s}^2$, what is the minimum 
+    coefficient of static friction $\mu_s$ required to keep the crate from sliding off?}
+    {$\mu_s \approx 0.31$}
+
+    % SOLUTION CONTENT
+    Refer to the diagram of the truck below: \textit{(Diagram not accurate. Example use only.)}
+    
+    \begin{center}
+        \includegraphics[width=0.6\textwidth]{figures/truck_figure.png}
+    \end{center}
+
+    For the crate to move with the truck without sliding, the static friction force $f_s$ must provide the acceleration.
+    Using Newton's Second Law in the horizontal direction:
+    \[ f_s = ma \]
+    The maximum static friction is $f_{s,max} = \mu_s N$. Since the vertical forces balance, $N = mg$.
+    Therefore:
+    \begin{align*}
+        \mu_s mg &= ma \\
+        \mu_s g &= a \\
+        \mu_s &= \frac{a}{g} = \frac{3.0}{9.8} \approx 0.306
+    \end{align*}
+\end{problemblock}
+
+\begin{problemblock}
+    {4}
+    {Problem statement/details.}
+    {Answer example}
+
+    -- Solution Content --
+    
+    \vspace{48pt}
+    You can do anything here.
+
+    $$ e = mc^2 $$
+
+\end{problemblock}
+
+\end{document}
