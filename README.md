@@ -17,7 +17,7 @@ Launch these templates directly in your browser without downloading any files.
 
 | Template | Description | Overleaf |
 | :--- | :--- | :--- |
-| **ProblemSet-BlockI** | I use this for my problem set submissions. | [![Open in overleaf](https://img.shields.io/badge/Open%20in-Overleaf-47ba66?style=flat-square&logo=overleaf&logoColor=white)](https://www.overleaf.com/docs?snip_uri=https://github.com/MarlboroBandit/PaperCraft-LaTeX/tree/main/block-I/archive/refs/heads/main.zip) |
+| **ProblemSet-BlockI** | I use this for my problem set submissions. | [![Open in Overleaf](https://img.shields.io/badge/Open%20in-Overleaf-47ba66?style=flat-square&logo=overleaf&logoColor=white)](https://www.overleaf.com/docs?snip_uri=https://github.com/MarlboroBandit/PaperCraft-LaTeX/archive/refs/tags/Block-I.zip) |
 
 > [!NOTE] 
 > These links pull the latest raw code from this repo. ;).
